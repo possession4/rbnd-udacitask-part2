@@ -1,7 +1,7 @@
 require 'chronic'
 require 'colorize'
 # Find a third gem of your choice and add it to your project
-require 'formatador'
+require 'terminal-table'
 require 'date'
 require_relative "lib/listable"
 require_relative "lib/errors"
@@ -18,8 +18,8 @@ list.add("event", "Birthday Party", start_date: "2016-05-08")
 list.add("event", "Vacation", start_date: "2016-05-28", end_date: "2016-05-31")
 list.add("link", "https://github.com", site_name: "GitHub Homepage")
 list.all
-list.delete(3)
-list.all
+# list.delete(3)
+# list.all
 
 # SHOULD CREATE AN UNTITLED LIST AND ADD ITEMS TO IT
 # --------------------------------------------------
@@ -46,3 +46,17 @@ list.all
 # DEMO FILTER BY ITEM TYPE
 # ------------------------
 # new_list.filter("event")
+
+# ========================
+# FEATURES
+# ========================
+
+# DELETE MULTIPLE ITEMS
+# ------------------------
+# list.delete(1,2,3)
+# list.all
+
+# UPDATE PRIORITY
+# ------------------------
+# list.update_priority(1,"medium")
+# list.all

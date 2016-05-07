@@ -1,13 +1,13 @@
 # What you added to Udacitask 2.0
 # -------------------------------------------------------
-1. What is the gem of your choice and how did you use it?
+1. What is the gem of your choice and how did you use it? I used 'terminal-table'. I tried using 'formatador' initially because I really wanted to format the list visually, but I ran into some issues. Terminal-table proved to render the data much better. 
 2. Describe the 2 features you added to the project.
-  a) Feature 1...
-  b) Feature 2...
+  a) Feature 1.... Enhanced the 'delete' method to take in multiple values to delete instead of just one. (ex. list.delete(1,2))
+  b) Feature 2.... Added a method that takes in a list item number and a priority and updates the priority value ( ex. list.update_priority(list_item_number, "medium") )
 
 # REFLECTIONS
 # -------------------------------------------------------
-1. How long did you spend working on this project?
-2. What was the most rewarding challenge you conquered?
-3. What two additional features did you build? Why?
-4. Where do you still have room to grow?
+1. How long did you spend working on this project? I actually have no clue how long it took me to do this project as I had to take a hiatus to go out of the country and for a death in my family. It's been over a month since I submitted my last project, but I had to start and stop quite a bit.
+2. What was the most rewarding challenge you conquered? Being able to get back into it after such a long hiatus and commit myself to relearning what I'd forgotten.
+3. What two additional features did you build? Why? 1) Deleting multiple values at a time. I chose this because it finally allowed me to finally use the "splat" operator. 2) Updating the priority. I felt this feature was needed if you were going to allow a user to assign a priority.
+4. Where do you still have room to grow? I think I still need to work on loops and hashes. I tend to forget how to do those the most.

@@ -3,7 +3,7 @@ GEM
   specs:
     chronic (0.10.2)
     colorize (0.7.7)
-    formatador (0.2.5)
+    terminal-table (1.5.2)
 
 PLATFORMS
   ruby
@@ -11,7 +11,7 @@ PLATFORMS
 DEPENDENCIES
   chronic (= 0.10.2)
   colorize (= 0.7.7)
-  formatador (= 0.2.5)
+  terminal-table (= 1.5.2)
 
 BUNDLED WITH
    1.11.2
