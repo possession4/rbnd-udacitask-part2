@@ -14,7 +14,11 @@ class TodoItem
   def details
     format_description(@description) + "due: " +
     format_date(@due) +
-    format_priority(@priority)
+    format_priority(@priority) 
+  end
+
+  def type
+    "todo"
   end
 
   def priority_check()

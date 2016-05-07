@@ -9,4 +9,6 @@ module UdaciListErrors
   class InvalidPriorityValue < StandardError
   end
 
+  class NoItemTypeFound < StandardError
+  end
 end
